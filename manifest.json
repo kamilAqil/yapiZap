@@ -1,0 +1,25 @@
+{
+  "name": "acuity_appointments",
+  "author": {
+    "name": "kamilo and miker",
+    "email": "kamil.aqil@yapicentral.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "https://localhost:3000"
+    }
+  },
+  "domainWhitelist": ["https://localhost:3000"],
+  "parameters": [
+    {
+      "name": "token",
+      "type": "text",
+      "secure": true
+    }
+  ],
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
